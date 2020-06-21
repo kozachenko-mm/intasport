@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/intasport/static/css/main.d6e13536.chunk.css",
+    "main.js": "/intasport/static/js/main.35ed93cd.chunk.js",
+    "main.js.map": "/intasport/static/js/main.35ed93cd.chunk.js.map",
+    "runtime-main.js": "/intasport/static/js/runtime-main.7d507f52.js",
+    "runtime-main.js.map": "/intasport/static/js/runtime-main.7d507f52.js.map",
+    "static/js/2.e792bd6e.chunk.js": "/intasport/static/js/2.e792bd6e.chunk.js",
+    "static/js/2.e792bd6e.chunk.js.map": "/intasport/static/js/2.e792bd6e.chunk.js.map",
+    "index.html": "/intasport/index.html",
+    "precache-manifest.9b07d60623cfad9a0078569554682511.js": "/intasport/precache-manifest.9b07d60623cfad9a0078569554682511.js",
+    "service-worker.js": "/intasport/service-worker.js",
+    "static/css/main.d6e13536.chunk.css.map": "/intasport/static/css/main.d6e13536.chunk.css.map",
+    "static/js/2.e792bd6e.chunk.js.LICENSE.txt": "/intasport/static/js/2.e792bd6e.chunk.js.LICENSE.txt",
+    "static/media/emblemsynchronizing_93485.539dd6e1.svg": "/intasport/static/media/emblemsynchronizing_93485.539dd6e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d507f52.js",
+    "static/js/2.e792bd6e.chunk.js",
+    "static/css/main.d6e13536.chunk.css",
+    "static/js/main.35ed93cd.chunk.js"
+  ]
+}
