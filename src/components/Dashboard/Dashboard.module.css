@@ -1,0 +1,64 @@
+.title {
+    margin: 0 auto 60px;
+    color: #552f2f;
+    width: 300px;
+}
+
+.update {
+    width: 32px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: absolute;
+    left: 0;
+}
+
+.cities {
+    width: 95%;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 40px;
+}
+
+.btnCity{
+    background-color: #552f2f;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    color: antiquewhite;
+}
+
+.btnActivity {
+    background-color: #8f6363;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    color: antiquewhite;
+    margin: 2px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.link {
+    width: 200px;
+}
+.caption{
+    font-weight: 500;
+}
