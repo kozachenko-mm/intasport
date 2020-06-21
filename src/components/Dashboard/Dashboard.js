@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import style from "./Dashboard.module.css";
 import { ReactComponent as Upd } from "../../images/emblemsynchronizing_93485.svg";
 import shortid from "shortid";
+import PropTypes from 'prop-types'
 
 export default class Dashboard extends Component {
   state = {
@@ -9,6 +10,10 @@ export default class Dashboard extends Component {
     cities: [],
     activity: [],
     isActiv: true,
+  };
+
+  static propTypes = {
+    data: PropTypes.arrayOf(PropTypes.object).isRequired,
   };
 
   componentDidUpdate(prevProps) {
