@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc00dcf01983dfe053f0ef7ebb2a49c3",
+    "revision": "5b472a57092b8ab4500cf37f48bb7e1c",
     "url": "/intasport/index.html"
   },
   {
-    "revision": "9fc720d58f8ded372961",
-    "url": "/intasport/static/css/main.d6e13536.chunk.css"
+    "revision": "5e735a8205170c28b2b4",
+    "url": "/intasport/static/css/main.0637bbef.chunk.css"
   },
   {
-    "revision": "18d531be39821b5a439e",
-    "url": "/intasport/static/js/2.e792bd6e.chunk.js"
+    "revision": "5970c53c366091204af9",
+    "url": "/intasport/static/js/2.90860009.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/intasport/static/js/2.e792bd6e.chunk.js.LICENSE.txt"
+    "url": "/intasport/static/js/2.90860009.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fc720d58f8ded372961",
-    "url": "/intasport/static/js/main.35ed93cd.chunk.js"
+    "revision": "5e735a8205170c28b2b4",
+    "url": "/intasport/static/js/main.3b8d2ba3.chunk.js"
   },
   {
     "revision": "47dfbe6904f95f702897",
