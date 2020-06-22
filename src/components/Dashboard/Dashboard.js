@@ -99,11 +99,12 @@ export default class Dashboard extends Component {
 
   render() {
     const { cities, activity, database, isActiv } = this.state;
+    console.log(style)
     return (
       <div>
-        <h1 className={style.title}>Instasport</h1>
         <div className={style.cities}>
           {!isActiv && (
+
             <button
               className={style.update}
               type="button"
@@ -139,6 +140,7 @@ export default class Dashboard extends Component {
           ))}
         </div>
         <ul className={style.list}>
+
           {database.length >= 0 &&
             database.map((el) => (
               <li className={style.listItem} key={shortid()}>
@@ -148,6 +150,7 @@ export default class Dashboard extends Component {
                 <span className={style.caption}>{el.title}</span>
               </li>
             ))}
+
         </ul>
       </div>
     );
