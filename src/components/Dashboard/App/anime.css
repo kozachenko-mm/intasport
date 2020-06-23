@@ -1,0 +1,30 @@
+.logo-enter {
+    opacity: 0;
+}
+
+.logo-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-out;
+}
+
+
+
+.my-node-enter {
+    opacity: 0;
+}
+
+.my-node-enter-active {
+    opacity: 1;
+    transition: opacity 2000ms ease-in;
+}
+
+.my-node-exit {
+    opacity: 1;
+    transform: rotate();
+}
+
+.my-node-exit-active {
+    opacity: 0;
+    transform: rotate(720deg);
+    transition: transform 1000ms ease-in-out, opacity 1000ms ease-in-out;
+}

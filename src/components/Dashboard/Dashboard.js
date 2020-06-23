@@ -2,14 +2,16 @@ import React, { Component } from "react";
 import style from "./Dashboard.module.css";
 import { ReactComponent as Upd } from "../../images/emblemsynchronizing_93485.svg";
 import shortid from "shortid";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
+import { CSSTransition } from "react-transition-group";
+import "./App/anime.css";
 
 export default class Dashboard extends Component {
   state = {
     database: [],
     cities: [],
     activity: [],
-    isActiv: true,
+    isActiv: false,
   };
 
   static propTypes = {
@@ -66,7 +68,7 @@ export default class Dashboard extends Component {
       return { activity: prevState.activity };
     });
 
-    this.setState({ isActiv: false });
+    this.setState({ isActiv: true });
   };
 
   handleFilterActivivty = (event) => {
@@ -94,25 +96,22 @@ export default class Dashboard extends Component {
       }
       return { activity: prevState.activity };
     });
-    this.setState({ isActiv: true });
+    this.setState({ isActiv: false });
   };
 
   render() {
     const { cities, activity, database, isActiv } = this.state;
-    console.log(style)
     return (
       <div>
         <div className={style.cities}>
-          {!isActiv && (
-
-            <button
-              className={style.update}
-              type="button"
-              onClick={this.updateCities}
-            >
-              <Upd />
-            </button>
-          )}
+          <CSSTransition
+            timeout={2000}
+            in={isActiv}
+            classNames="my-node"
+            unmountOnExit
+          >
+            <Upd className={style.update} onClick={this.updateCities} />
+          </CSSTransition>
           {cities.length > 0 &&
             cities.map((el) => (
               <button
@@ -140,7 +139,6 @@ export default class Dashboard extends Component {
           ))}
         </div>
         <ul className={style.list}>
-
           {database.length >= 0 &&
             database.map((el) => (
               <li className={style.listItem} key={shortid()}>
@@ -150,7 +148,6 @@ export default class Dashboard extends Component {
                 <span className={style.caption}>{el.title}</span>
               </li>
             ))}
-
         </ul>
       </div>
     );

@@ -1,11 +1,17 @@
 .title {
     margin: 0 auto 60px;
     color: #0c0b55;
-    width: 200px;
     font-size: 48px;
 }
 
 .spiner {
     width: 100px;
     margin: 0 auto;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
 }
